@@ -5,7 +5,7 @@ if(!empty($_POST["send"])) {
 	$subject = $_POST["subject"];
 	$content = $_POST["content"];
 
-	$conn = mysqli_connect("localhost", "id14425855_fbcontact", "Asherfraz!786", "id14425855_contact") or die("Connection Error: " . mysqli_error($conn));
+	$conn = mysqli_connect("localhost", "user", "password", "user") or die("Connection Error: " . mysqli_error($conn));
 	mysqli_query($conn, "INSERT INTO tblcontact (user_name, user_email,subject,content) VALUES ('" . $name. "', '" . $email. "','" . $subject. "','" . $content. "')");
 	$insert_id = mysqli_insert_id($conn);
 	//if(!empty($insert_id)) {
