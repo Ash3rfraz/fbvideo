@@ -1,0 +1,50 @@
+html {
+	font-size: 14px;
+
+}
+body{
+  background-image: url("/img/fb1.png");
+  background-size: cover; 
+}
+
+*{
+	margin: 0px;
+	padding: 0px;
+    
+}
+
+#loader{
+    position: fixed;
+    width : 0%;
+    height: 0vh;
+    background : white
+    url('https://miro.medium.com/max/441/1*9EBHIOzhE1XfMYoKz1JcsQ.gif') no-repeat center ;   
+    z-index: 999999; 
+}
+
+
+@media (min-width: 768px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+.container {
+	max-width: 960px;
+}
+.display-4 {
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+    
+}
+#coming{
+	text-align: center;
+	justify-content: center;
+	position: fixed;
+    width : 100%;
+    height: 100vh;
+    background : white no-repeat center ;   
+    z-index: 999999; 
+
+}

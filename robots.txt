@@ -1,0 +1,9 @@
+# Sitemap for FBVIDEO.GA Facebook Video Downloader
+User-agent: *
+Disallow:/asset/
+Allow:/
+
+User-agent: Twitterbot
+Disallow:
+
+Sitemap: https://www.fbvideo.ga/sitemap.xml
