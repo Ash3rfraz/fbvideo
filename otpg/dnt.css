@@ -1,0 +1,21 @@
+@charset "utf-8";
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+body {
+    font-family: Arial;
+    /*width: 100px;*/
+    background-image: url("../img/1.jpg");
+    background-size: cover;
+
+}
+#loader{
+    position: fixed;
+    width : 0%;
+    height: 0vh;
+    background : white
+    url('../asset/loader.gif') no-repeat center ;   
+    z-index: 999999; 
+}
